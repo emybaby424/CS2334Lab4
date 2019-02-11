@@ -32,6 +32,7 @@ public class AnimalTest
     	Assert.assertEquals("Bob", ani.getName());
     	Assert.assertEquals(200.0, ani.getHeight(), 0.01);
     	Assert.assertEquals(120.0, ani.getWeight(), 0.01);
+    	Assert.assertEquals("Bob, a brown-colored animal. 200.0 pounds, 120.0 inches.\n", ani.toString());
     }
 }
 
