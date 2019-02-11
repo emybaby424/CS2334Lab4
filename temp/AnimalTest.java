@@ -23,5 +23,15 @@ public class AnimalTest
     }
 
     // TODO: test full constructor, getters, and toString
+    
+    public void fullConstructorTest() throws AssertException {
+    	
+    	Animal ani = new Animal("brown", "Bob", 200.0, 120.0);
+    	
+    	Assert.assertEquals("brown", ani.getColor());
+    	Assert.assertEquals("Bob", ani.getName());
+    	Assert.assertEquals(200.0, ani.getHeight(), 0.01);
+    	Assert.assertEquals(120.0, ani.getWeight(), 0.01);
+    }
 }
 
