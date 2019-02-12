@@ -10,6 +10,7 @@ Tasks:
 3. Completing AnimalTest
 4. Completing the constructor, getters and toString test for Equipment
 5. Completing the ZooTest
+6. Debugging
 
 Estimated Time (minutes):
 1. 10
@@ -17,6 +18,7 @@ Estimated Time (minutes):
 3. 10
 4. 10
 5. 15
+6. 20
 
 Actual Time (minutes):
 1. 5
@@ -24,5 +26,6 @@ Actual Time (minutes):
 3. 8
 4. 15
 5. 25
+6. 25
 
 */}

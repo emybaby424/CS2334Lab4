@@ -27,12 +27,17 @@ public class AnimalTest
     public void fullConstructorTest() throws AssertException {
     	
     	Animal ani = new Animal("brown", "Bob", 200.0, 120.0);
+    	Animal ani2 = new Animal("brown", "Bob", 200.0, 120.0);
+    	Animal ani3 = new Animal("brown", "Bobby", 200.0, 120.0);
     	
     	Assert.assertEquals("brown", ani.getColor());
     	Assert.assertEquals("Bob", ani.getName());
-    	Assert.assertEquals(200.0, ani.getHeight(), 0.01);
-    	Assert.assertEquals(120.0, ani.getWeight(), 0.01);
-    	Assert.assertEquals("Bob, a brown-colored animal. 200.0 pounds, 120.0 inches.\n", ani.toString());
+    	Assert.assertEquals(200.0, ani.getWeight(), 0.01);
+    	Assert.assertEquals(120.0, ani.getHeight(), 0.01);
+    	Assert.assertEquals("Bob, a brown-colored animal. 200.0 pounds, 120.0 inches\n", ani.toString());
+    	
+    	Assert.assertEquals(ani.equals(ani2), true);
+    	Assert.assertEquals(ani2.equals(ani3), false);
     }
 }
 

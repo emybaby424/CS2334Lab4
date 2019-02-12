@@ -149,6 +149,8 @@ public class Animal
         /* return TODO; */
         
         return sameColor && sameName && sameWeight && sameHeight;
-      
+       
     }
+    
 }
+

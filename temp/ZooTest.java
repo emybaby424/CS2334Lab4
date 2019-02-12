@@ -1,6 +1,18 @@
 
 public class ZooTest {
 	
+	 public void zooEmptyConstructorTest() throws AssertException
+	    {
+	        // default constructor
+		 
+	    	Zoo zoo = new Zoo(0);
+
+	       
+	        Assert.assertEquals(0.0, zoo.getTotalHeight());
+	        Assert.assertEquals(0, zoo.getCapacity());
+	        Assert.assertEquals("These animals live in the zoo: \n", zoo.toString());
+	    }
+	
 	public void defaultConstructorTest() throws AssertException{
 		
 		Zoo zoo = new Zoo(3);
