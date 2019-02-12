@@ -1,18 +1,28 @@
 public class Todo {/*
-Lab Section_________: XX
-Last Modified_______: 20XX-XX-XX
-OU ID_______________: XXXXXXXXX
-OU EMAIL____________: XXX@ou.edu
+Lab Section_________: 12
+Last Modified_______: 2019-02-11
+OU ID_______________: 113377227
+OU EMAIL____________: emily.lu@ou.edu
 
 Tasks:
-1. XXX
-2. XXX
+1. Finishing equal method for Animal class
+2. Finishing equal method for Equipment class
+3. Completing AnimalTest
+4. Completing the constructor, getters and toString test for Equipment
+5. Completing the ZooTest
 
 Estimated Time (minutes):
-1. XXX
-2. XXx
+1. 10
+2. 10
+3. 10
+4. 10
+5. 15
 
 Actual Time (minutes):
-1. XXX
-2. XXX
+1. 5
+2. 5
+3. 8
+4. 15
+5. 25
+
 */}
