@@ -6,7 +6,7 @@ public class Exam_question {
 	
 	public Exam_question() {
 		x = 0;
-		y = 0;
+		y = 0; 
 	}
 	
 	public Exam_question(int x, int y) {
